@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "turboquant-gpu"
+version = "0.1.4"
+description = "TurboQuant KV cache compression for LLM inference — cuTile GPU kernels"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [
+    { name = "Anirudh Bharadwaj Vangara" },
+]
+keywords = [
+    "quantization", "kv-cache", "llm", "inference",
+    "cutile", "cuda", "gpu", "attention",
+    "blackwell", "hopper", "h100", "b200",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "torch",
+    "scipy",
+]
+
+[project.optional-dependencies]
+gpu = ["cuda-tile"]
+
+[tool.setuptools.packages.find]
+include = ["turboquant_gpu*"]

